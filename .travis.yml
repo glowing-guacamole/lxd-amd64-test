@@ -1,0 +1,8 @@
+language: generic
+
+matrix:
+  include:
+   - name: Test
+     os: linux
+
+script: echo $TRAVIS_CPU_ARCH
