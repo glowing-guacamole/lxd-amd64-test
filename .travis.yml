@@ -6,3 +6,4 @@ matrix:
      os: linux
 
 script: echo $TRAVIS_CPU_ARCH
+
