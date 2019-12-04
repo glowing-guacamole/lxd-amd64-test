@@ -1,9 +1,16 @@
 language: generic
 
-matrix:
-  include:
-   - name: Test
-     os: linux
+env:
+  matrix:
+    - CI_NODE_INDEX=0
+    - CI_NODE_INDEX=1
+    - CI_NODE_INDEX=2
+    - CI_NODE_INDEX=3
+    - CI_NODE_INDEX=4
+    - CI_NODE_INDEX=5
+    - CI_NODE_INDEX=6
+    - CI_NODE_INDEX=7
+    - CI_NODE_INDEX=8
 
-script: echo $TRAVIS_CPU_ARCH
+script: sleep 3; echo $TRAVIS_CPU_ARCH
 
