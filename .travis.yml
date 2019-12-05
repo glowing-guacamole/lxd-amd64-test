@@ -12,5 +12,5 @@ env:
     - CI_NODE_INDEX=7
     - CI_NODE_INDEX=8
 
-script: sleep 300; echo $TRAVIS_CPU_ARCH
+script: sleep 3; echo $TRAVIS_CPU_ARCH
 
