@@ -1,5 +1,5 @@
 os: linux
-
+dist: xenial
 env:
   matrix:
     - CI_NODE_INDEX=0
